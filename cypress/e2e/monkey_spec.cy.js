@@ -193,7 +193,7 @@ const randomScroll = () => {
                   break;
           }
 
-          cy.wait(50000); // Pausa entre interacciones
+          cy.wait(5000); // Pausa entre interacciones
       }
   });
 });
